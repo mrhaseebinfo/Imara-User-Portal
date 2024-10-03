@@ -41,11 +41,11 @@ Imarat User-Portal-Design is a fully responsive and dynamic user portal interfac
 
 
 2. **Install node package manager**
-   ``` npm install
+   npm install
 
 3. **Step 3:**
-   ``` cd responsive-design-imarat
+   cd responsive-design-imarat
 
 
 4. **Step 4:**
-     ````npm run dev
+     npm run dev
