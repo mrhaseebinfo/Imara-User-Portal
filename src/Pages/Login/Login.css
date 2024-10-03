@@ -1,0 +1,56 @@
+/* Login */
+.custom-container {
+  width: 80%; 
+  max-width: 420px; 
+  height: auto; 
+  min-height: 400px; 
+  padding: 20px; 
+  margin: 0 auto; 
+  border-radius: 8px; 
+ 
+}
+
+.logo-h{
+  color: #2C4351;
+  margin: 9px;
+
+}
+.login-form{
+  background: #FFFFFF66;
+  border: 2px solid rgba(255, 255, 255, 0.4);
+
+  width: 100%; 
+  max-width: 420px; 
+  height: auto; 
+  min-height: 400px; 
+  padding: 20px; 
+  margin: 0 auto; 
+  border-radius: 8px; 
+
+}
+
+.btn-login{
+  background: #2C4351;
+  color: #fff;
+  font-size: 1.2rem;
+
+}
+.btn-login:hover{
+  border:  2px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+/* Input  */
+
+input.form-control {
+  border: 1px solid #ced4da;
+  transition: border-color 0.2s; 
+}
+
+input.form-control:focus {
+  border-color: transparent; 
+  box-shadow: none; 
+}
+

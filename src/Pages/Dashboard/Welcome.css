@@ -1,0 +1,21 @@
+
+.offer-div {
+  height: 74.4vh; 
+  border-radius: 10px;
+}
+
+.project-div {
+  height: 28rem; 
+  border-radius: 10px;
+}
+
+.upcoming-event {
+  height: 65vh; 
+  margin-bottom: 2rem;
+}
+
+.Card {
+  height: 13vh; 
+  border-radius: 10px;
+}
+

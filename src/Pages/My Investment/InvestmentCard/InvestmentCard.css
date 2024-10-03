@@ -1,0 +1,44 @@
+.investment-card{
+  height: 51vh;
+}
+
+.invest-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.invest-image{
+  display: flex;
+  gap: 25px;
+  padding: 10px; 
+}
+.images-card{
+  flex: 0 0 auto; 
+  width: 280px; 
+  height: 200px; 
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.btn-investment {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.status-complete {
+  background-color: #28a745;
+}
+
+.status-inprogress {
+  background-color: #ffc107;
+}
+
+.status-pending {
+  background-color: #dc3545;
+}
+

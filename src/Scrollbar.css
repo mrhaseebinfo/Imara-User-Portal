@@ -1,0 +1,16 @@
+@import "~smooth-scrollbar/dist/smooth-scrollbar.css";
+
+.projectsdetail-div{
+  max-height: 100px; 
+  overflow: hidden; 
+}
+
+
+.scrollbar-thumb {
+  background-color: rgb(15, 15, 15); 
+  border-radius: 10px; 
+}
+
+.scrollbar-track {
+  background: transparent; 
+}

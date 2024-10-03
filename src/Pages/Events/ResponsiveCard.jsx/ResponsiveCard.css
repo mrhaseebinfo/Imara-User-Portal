@@ -1,0 +1,10 @@
+.event-cards{
+  background: none;
+  border: none;
+} 
+.img-fluid{
+  background: rgb(75, 75, 75);
+  padding: 6px;
+  border-radius: 10px;
+}
+

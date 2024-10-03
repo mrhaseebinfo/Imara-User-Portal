@@ -1,0 +1,17 @@
+/* Optional custom styles */
+.booking-info {
+  border-radius: 10px;
+  margin-bottom: 20rem;
+}
+
+.btn-custom {
+  background-color: #06416C;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color:#06416C;
+}
+.text-primarys{
+  color: #06416C;
+}

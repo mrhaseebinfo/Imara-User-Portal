@@ -1,0 +1,57 @@
+.project-detail-page {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.breadcrumbs {
+  margin-bottom: 20px; 
+}
+
+.breadcrumb-text {
+  color: white;
+  font-size: 16px;
+}
+
+.tabs-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 40px;
+  border-bottom: 5px solid rgb(236, 236, 236);
+}
+
+.tab {
+  padding: 10px 0; 
+  position: relative;
+  cursor: pointer;
+  margin-bottom: -5px;
+  text-align: center; 
+}
+
+.tab.active .tab-text,
+.tab-text.active {
+  color: #06416C; 
+}
+
+.tab.active {
+  border-bottom: 5px solid #06416C; 
+}
+
+.tab:hover .tab-text {
+  color: #06416C; 
+}
+
+.tab-text {
+  color: white; 
+  font-size: 18px;
+  padding-bottom: 4px; 
+}
+
+.section-content {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px;
+}

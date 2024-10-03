@@ -1,0 +1,89 @@
+.editprofile {
+  height: auto;
+  background-color: rgba(227, 228, 228, 0.4);
+  border-radius: 10px;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 10rem;
+}
+
+.border-profile{
+  border: 4px solid rgb(255, 255, 255,0.4);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.edit-btn {
+  border: 2px solid #06416C;
+  border-radius: 10px;
+  background: none;
+  color: #06416C;
+}
+
+.custom-edit-upload {
+  background-color: #06416C;
+  color: #ffffff;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  width: 40%;
+  text-align: center;
+}
+
+.cnic-div {
+  border: 2px dashed #e2e1e180;
+  padding: 10px 0px 10px 12px !important;
+
+}
+
+
+
+.custom-edit-upload {
+  background-color: #06416C; 
+  color: white;
+  padding: 10px;
+  width: 8rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.file-input {
+  display: none; 
+}
+
+.no-file {
+  background: none;
+}
+
+
+.btn-edit-pro {
+  background-color: #b9b9b9;
+  border-radius: 30px;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+
+.form-check-label {
+  color: #000;
+}
+
+.form-check-input:checked + .form-check-label {
+  color: white;
+}
+
+.btn-cancel, .btn-save {
+  width: 10%;
+  padding: 10px;
+}
+
+.btn-save {
+  background-color: #06416C;
+  color: #fff;
+  border: 2px solid #06416C;
+}
+
+.btn-cancel {
+  border: 2px solid #fff;
+  color: #fff;
+}
+

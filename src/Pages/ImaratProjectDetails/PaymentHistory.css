@@ -1,0 +1,92 @@
+.payment {
+  width: 100%;
+  height: auto; 
+  border-radius: 8px;
+  overflow-y: auto; 
+  scroll-behavior: smooth;
+  margin-top: -2rem;
+  margin-bottom: 20rem;
+}
+
+
+.payment::-webkit-scrollbar {
+  width: 8px;
+}
+
+.payment::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 123, 255, 0.5); /* Customize scrollbar color */
+  border-radius: 10px;
+}
+
+.payment::-webkit-scrollbar-track {
+  background-color: rgba(255, 255, 255, 0.2); /* Customize scrollbar track color */
+}
+
+/* Header Customization */
+.header-custom {
+  background-color: rgba(224, 222, 222, 0.7);
+  color: #06416C;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+  position: sticky;
+  top: 0; /* Keep the header sticky at the top */
+  z-index: 100;
+  text-align: center;
+}
+
+/* Table Container */
+.table-container {
+  max-height: 526px;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Custom table styling */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.custom-table th, 
+.custom-table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Body Customization */
+.tbody-custom tr {
+  color: #000;
+  font-size: 13px;
+}
+
+.tbody-custom td {
+  padding: 15px;
+  width: 12rem;
+}
+
+/* Status Button Styles */
+.btn-investment {
+  padding: 6px 10px;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+}
+
+.status-complete {
+  background-color: green;
+}
+
+.status-inprogress {
+  background-color: blue;
+}
+
+.status-pending {
+  background-color: orange;
+}
+
+
+.custom-table tbody tr:hover {
+  background-color: rgba(0, 123, 255, 0.1);
+}

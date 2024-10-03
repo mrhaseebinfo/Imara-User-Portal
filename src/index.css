@@ -1,0 +1,941 @@
+/* Responsive all  */
+
+/* Investmet */
+@media (max-width: 576px) {
+  .my-investment {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .my-investment {
+    padding: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .my-investment {
+    padding: 20px;
+  }
+  .full-width-row {
+    width: 100%;
+  }
+  
+}
+
+@media(width:820px){
+  .full-width-row{
+    width: 100% !important;
+  }
+}
+
+/* Imarat */
+@media(max-width:375px){
+  .project-container{
+    width: 23rem;
+  }
+}
+@media(max-width:768px){
+  .project-container{
+    width: 23rem;
+  }
+}
+
+
+/*  Investment Card */
+@media (width: 375px) {
+  .investment-card {
+    width: 20rem !important; 
+    height: 70rem !important;
+  }
+
+  .investment-info {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px; 
+  }
+
+  .investment-info-overlay {
+    height: auto; 
+    padding: 8px; 
+  }
+
+  .invest-image {
+    display: block; 
+  }
+
+  .images-card {
+    margin-bottom: 15px; 
+    width: 100%; 
+  }
+
+  .investment-info-overlay {
+    padding: 8px; 
+  }
+
+
+  .btn-investment {
+    font-size: 0.7rem; 
+    padding: 5px 10px; 
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .investment-card{
+    width: 22rem !important;
+    height: 85rem !important;
+  }
+  .investment-info {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .investment-info-overlay {
+    height: auto;
+  }
+  .invest-image {
+    display: block;
+  }
+  
+  .images-card {
+    margin-bottom: 20px;
+    width: 100%; 
+  }
+  
+  .investment-info-overlay {
+    padding: 10px;
+  }
+}
+
+
+
+@media (max-width: 968px) {
+  .investment-card{
+    width: 42rem;
+    height: 80vh;
+  }
+  .investment-info {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .investment-info-overlay {
+    height: auto;
+  }
+  
+  .investment-info-overlay {
+    padding: 10px;
+  }
+}
+
+
+@media(width:820px) {
+  .investment-card{
+     width: 30rem;
+     margin-left: 4px;
+  }
+  .investment-info {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px;
+  }
+  .investment-info-overlay {
+    height: auto;
+  }
+  .invest-image {
+    display: block;
+  }
+  
+  .images-card {
+    margin-bottom: 20px;
+    width: 100%; 
+  }
+  
+  .investment-info-overlay {
+    padding: 10px;
+  }
+}
+
+/* Support */
+@media (max-width: 768px) {
+  .support {
+    width: 100%; /* Take full width on tablets */
+    height: auto; /* Adjust height */
+  }
+
+  .border-custom {
+    width: 90%; /* Adjust width for smaller screens */
+    margin-left: 5%; /* Center the content */
+  }
+
+  .scrollable-tickets {
+    height: auto; /* Let it expand naturally */
+  }
+
+  .popup-content {
+    width: 95%; /* Adjust popup for tablet and mobile */
+  }
+}
+
+@media (max-width: 576px) {
+  .support {
+    width: 100%;
+    padding: 0.5rem; /* Adjust padding for mobile */
+  }
+
+  .border-custom {
+    width: 95%;
+    margin-left: 2.5%;
+  }
+
+  .btn-complain {
+    font-size: 12px; /* Smaller text for mobile */
+  }
+
+  .popup-content {
+    width: 100%;
+  }
+
+  .scrollable-ticket {
+    height: auto; /* Expand to fit content */
+  }
+}
+
+
+/* Profile */
+
+@media (max-width: 576px) {
+  .profile-div img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Edit-btn {
+    padding: 6px 12px;
+  }
+  .nav-b{
+    border-bottom: none;
+  }
+ 
+}
+/* Edit Profile */
+@media(max-width:768px){
+  .btn-cancel, .btn-save {
+    width: 30%;
+    padding: 10px;
+  }
+}
+
+
+/* Login */
+
+@media (max-width: 768px) {
+  .custom-container {
+    width: 90%; 
+  }
+  .login-form{
+    width: 80%;
+  }
+}
+
+
+/* Header or Navbar */
+@media (max-width: 768px) {
+  .input-group-search{
+    margin-left: 1rem !important;
+  }
+}
+@media(width:820px){
+  .input-group-search{
+    margin-left: 1rem !important;
+  }
+  .header{
+    width: 40rem;
+  }
+}
+
+/*  SideBar */
+
+@media (max-width: 767px) {
+
+  .logo-mobile-screen {
+    display: block;
+  }
+  .logo-large-screen {
+    display: none;
+  }
+  .margin-top{
+    margin-top: 10rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    left: 0;
+    position: relative;
+  }
+
+  .close-btn {
+    display: none; 
+  }
+  .margin-top{
+    margin-top: 12rem;
+  }
+}
+
+
+/*  Main Content  */
+
+
+
+
+@media (max-width: 1024px) {
+  .Card {
+    height: 8vh; 
+    width: 10rem;
+  }
+  .offer-div {
+    height: 50vh; 
+  }
+  .project-div {
+    height: 41vh; 
+    margin-bottom: 1rem;
+  }
+  .upcoming-event {
+    height: 100vh; 
+    
+  }
+}
+
+
+@media(width: 820px) {
+  .Card {
+    height: 8vh; 
+    width: 10rem;
+  }
+  .offer-div {
+    height: 50vh; 
+  }
+  .project-div {
+    height: 41vh; 
+    margin-bottom: 1rem;
+  }
+  .upcoming-event {
+    height: 100vh; 
+    
+  }
+}
+
+@media (max-width: 768px) {
+  .Card {
+    height: 12vh; 
+    width: 10rem;
+    
+  }
+  .offer-div {
+    height: 70vh; 
+  }
+  .project-div {
+    height: 70vh; 
+    margin-bottom: 1rem;
+  }
+  .upcoming-event {
+    height: 110rem; 
+    
+  }
+}
+
+
+@media (min-width: 1700px) {
+  .Card {
+    height: 15.8vh !important; 
+   
+  }
+  .offer-div {
+    height: 68vh; 
+  }
+  .project-div {
+    height: 50vh; 
+    margin-bottom: 1rem;
+  }
+  .upcoming-event {
+    height: 100vh; 
+    
+  }
+}
+
+
+
+
+@media(max-width:786px){
+  .Arrow-btn{
+    margin: 1px;
+    color: #fff;
+  }
+  .arrow-btn .Arrow-btn{
+    font-size: 4rem;
+    padding-left: 12px;
+  }
+}
+
+@media(width: 820px){
+  .Arrow-btn{
+    margin: 1px;
+    color: #fff;
+  }
+  .arrow-btn .Arrow-btn{
+    font-size: 4rem;
+    padding-left: 12px;
+  }
+}
+
+
+
+
+@media (max-width: 768px) {
+  .table-responsive{
+    height: 26rem !important;
+    margin-top: 1rem;
+  }
+  thead tr th{
+    font-size: 0.75rem;
+  }
+  
+  tbody tr td{
+    font-size: 0.65rem;
+  }
+}
+@media (max-width: 1024px) {
+  .table-responsive{
+    height: 32rem;
+  }
+ 
+}
+
+
+@media (width: 820px) {
+  .table-responsive{
+    height: 28rem !important;
+  }
+  thead tr th{
+    font-size: 0.75rem;
+  }
+  
+  tbody tr td{
+    font-size: 0.65rem;
+  }
+ 
+}
+
+
+@media (max-width: 360px) {
+  .table-responsive{
+    height: 28rem !important;
+  }
+ 
+}
+@media (max-width: 414px) {
+  .table-responsive{
+    height: 36rem;
+  }
+ 
+}
+
+
+
+@media (max-width:768px){
+  .Cust-offer{
+    margin-left: -1.3rem;
+    height: 28rem;
+  }
+  .dropdown-custm{
+    margin-left: -1px !important;
+  }
+  .download-icon{
+    margin-left: -4rem !important;
+  }
+}
+
+@media(width:820px){
+  .Cust-offer{
+    margin-left: -1.3rem;
+    height: 28rem;
+  }
+  .dropdown-custm{
+    margin-left: -1px !important;
+  } 
+
+  .amazon-mall-btn{
+    margin-top: 50px;
+    margin-left: -5rem;
+  }
+  .amazing-title {
+    font-size: 15px !important;
+  }
+
+  
+}
+
+
+
+/* Calander */
+
+
+
+@media (max-width: 768px) {
+  .calendar-container {
+    padding: 10px; 
+  }
+
+  .react-calendar__tile {
+    padding: 10px; 
+    font-size: 0.75rem; 
+  }
+
+  .react-calendar__navigation__label {
+    font-size: 16px; 
+  }
+
+  .custom-arrow {
+    font-size: 1.5rem; 
+  }
+}
+
+@media (width: 820px) {
+  .calendar-container {
+    padding: 1px;
+    
+     
+  }
+
+  .react-calendar__tile {
+    padding: 1px; 
+    font-size: 0.50rem; 
+  }
+
+  .react-calendar__navigation__label {
+    font-size: 10px; 
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  .custom-arrow {
+    font-size: 0.65rem !important; 
+  }
+  .react-calendar__month-view__weekdays__weekday abbr{
+    font-size: 8px;
+    
+  
+  }
+  .react-calendar__navigation__label{
+    font-size: 10px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .calendar-container {
+    padding: 5px; 
+  }
+
+  .react-calendar__tile {
+    padding: 8px; 
+    font-size: 0.65rem; 
+  }
+
+  .react-calendar__navigation__label {
+    font-size: 14px;
+  }
+
+  .custom-arrow {
+    font-size: 1.25rem; 
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+  .upcoming-img {
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+  .imges-event{
+    width: 170px;
+  }
+  
+}
+
+@media (min-width: 992px) {
+  .upcoming-img {
+    flex: 0 0 23%; 
+    max-width: 23%;
+  }
+}
+
+@media (max-width: 767px) {
+  .upcoming-img {
+    flex: 0 0 100%; 
+    max-width: 100%;
+  }
+  
+}
+
+
+@media (width: 820px) {
+  .upcoming-div{
+    width: 23rem;
+  }
+  
+}
+
+
+
+
+@media(width:820px){
+  .img-fluid{
+    display: none;
+  }
+  .textcolor{
+    font-size: 10px !important;
+  }
+  .title{
+    font-size: 10px !important;
+  }
+  .card-sm-d{
+    display: block;
+  }
+  .event-cards{
+    width: 20rem;
+  }
+}
+
+
+
+
+@media (max-width: 786px) {
+  .event-div {
+    width: 93%;
+    height: 100vh;
+    overflow-y: scroll;
+    margin-bottom: 20rem;
+     
+  }
+  .calendar {
+    width: 90% !important; 
+    height: 60vh;
+  }
+  .calendar{
+    margin-left: 0rem !important;
+    margin-right: 2rem;
+  }
+  .calendar-child{
+    padding: 5px; 
+  }
+
+  .child-bg-sm-calander  {
+    padding: 5px; 
+  }
+  .event-custom{
+    width: 25rem;
+    margin-bottom: 6rem;
+    height: 30vh;
+  }
+}
+
+@media (width: 820px) {
+  .event-div {
+    width: 100%;
+    height: 30vh;
+    overflow-y: auto; 
+    scroll-behavior: smooth; 
+  }
+  
+  
+  .event-div::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .event-div {
+    scrollbar-width: none; 
+  }
+  .calendar {
+    height: 18vh;
+  }
+  .calendar{
+    margin-left: 0rem !important;
+    width: 13rem;
+    height: 30vh;
+   
+  }
+ 
+
+  
+  .event-custom{
+    width: 35rem;
+    margin-left: 2px;
+    height: 100%;
+    margin-bottom: 10rem;
+  }
+ 
+}
+
+@media (max-width: 480px) {
+  .calendar-child {
+    padding: 3px; 
+  }
+
+  .child-bg-sm-calander  { 
+    padding: 3px; 
+  }
+}
+
+
+
+/* Project-detail-page */
+
+
+@media (max-width: 992px) {
+  .project-detail-page {
+    padding: 8px;
+  }
+
+  .tabs-container {
+    flex-direction: column;
+  }
+
+  .tabs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .tab {
+    padding: 5px 0; 
+  }
+
+  .tab-font {
+    font-size: 16px;
+  }
+
+  .section-content {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .project-detail-page {
+    padding: 6px;
+  }
+
+  .tabs-container {
+    flex-direction: column;
+  }
+
+  .tab-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .section-content {
+    padding: 10px;
+  }
+
+  .tabs {
+    border: none;
+    gap: 10px !important;
+  }
+
+  .tab.active {
+    border: none;
+    color: #06416C; 
+  }
+}
+
+@media (width: 820px) {
+  .project-detail-page {
+    padding: 6px;
+  }
+
+  .tabs-container {
+    flex-direction: column;
+  }
+
+  .tab-text {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .section-content {
+    padding: 10px;
+  }
+
+  .tabs {
+    border: none;
+    gap: 10px !important;
+  }
+
+  .tab.active {
+    border: none;
+    color: #06416C; 
+  }
+}
+
+@media (max-width: 576px) {
+  .project-detail-page {
+    padding: 5px;
+  }
+
+  .tabs {
+    gap: 5px;
+  }
+
+  .tab-text {
+    font-size: 12px;
+  }
+
+  .section-content {
+    padding: 8px;
+  }
+}
+
+
+/* KYC */
+
+
+@media (max-width: 768px) {
+  .KYC {
+    width: 95%; 
+    
+  }
+  
+  .profile {
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .scroll-imformation {
+    max-height: 70vh !important; 
+  }
+}
+
+@media (max-width: 576px) {
+  .KYC {
+    width: 100%;
+   
+  }
+
+  .profile {
+    flex-direction: column; 
+    align-items: center;
+    text-align: center;
+  }
+
+ 
+  .margin-l h6, .margin-r h6 {
+    font-size: 0.9rem;
+  }
+
+  .scroll-imformation {
+    max-height: 60vh; 
+    padding-right: 0.5rem;
+  }
+
+  
+  .profile img, .margin-r img {
+    width: 80%; 
+    height: auto;
+  }
+}
+
+@media (min-width: 992px) {
+  .KYC {
+    width: 80rem; 
+  }
+
+  .profile {
+    width: 79.4rem;
+    margin-left: 3rem;
+    height: 64vh;
+  }
+}
+
+
+
+/* Responsive Styles  Paymet History*/
+@media (max-width: 412px) {
+  .payment {
+    height: auto; 
+    width: 22rem !important;
+  }
+
+  .custom-table th, 
+  .custom-table td {
+    font-size: 12px; /* Reduce font size for smaller devices */
+    padding: 8px; /* Reduce padding */
+  }
+
+  .tbody-custom td {
+    width: auto; /* Let the width be flexible on small screens */
+  }
+
+  .header-custom {
+    font-size: 12px; /* Smaller font size for header */
+  }
+}
+
+@media (max-width: 768px) {
+  .payment {
+    height: auto; 
+    width: 30rem ;
+  }
+
+  .custom-table th, 
+  .custom-table td {
+    font-size: 12px; /* Reduce font size for smaller devices */
+    padding: 8px; /* Reduce padding */
+  }
+
+  .tbody-custom td {
+    width: auto; /* Let the width be flexible on small screens */
+  }
+
+  .header-custom {
+    font-size: 12px; /* Smaller font size for header */
+  }
+}
+
+@media (max-width: 576px) {
+  .header-custom {
+    font-size: 10px; /* Further reduce font size for very small screens */
+  }
+
+  .btn-investment {
+    padding: 4px 6px; /* Smaller button padding */
+    font-size: 10px; /* Smaller font size for buttons */
+  }
+}
+
+@media(width:820px){
+  .payment {
+    height: auto; 
+    width: 30rem ;
+  }
+
+  .custom-table th, 
+  .custom-table td {
+    font-size: 12px; /* Reduce font size for smaller devices */
+    padding: 8px; /* Reduce padding */
+  }
+
+  .tbody-custom td {
+    width: auto; /* Let the width be flexible on small screens */
+  }
+
+  .header-custom {
+    font-size: 12px; /* Smaller font size for header */
+  }
+  
+}

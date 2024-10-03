@@ -1,0 +1,47 @@
+.event-design{
+  width: 80.3rem;
+  height: 65vh;
+  margin-left: 2rem;
+  border-radius: 12px;
+}
+
+.custom-button{
+  border-radius: 20px;
+  color: #fff;
+  border: 1px solid;
+}
+.custom-button:hover{
+  background: var(--Main, #06416C);
+
+}
+.Arrow-btn{
+  background: rgb(109, 110, 110, 0.6);
+  margin: 5px;
+  border-radius: 20px;
+  color: #fff;
+}
+.Arrow-btn:hover{
+  background: #06416C;
+}
+
+@media(max-width:786px){
+  .Arrow-btn{
+    margin: 1px;
+    color: #fff;
+  }
+  .arrow-btn .Arrow-btn{
+    font-size: 4rem;
+    padding-left: 12px;
+  }
+}
+
+@media(width: 820px){
+  .Arrow-btn{
+    margin: 1px;
+    color: #fff;
+  }
+  .arrow-btn .Arrow-btn{
+    font-size: 4rem;
+    padding-left: 12px;
+  }
+}

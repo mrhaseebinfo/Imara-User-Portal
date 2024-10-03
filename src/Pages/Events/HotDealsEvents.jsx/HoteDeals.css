@@ -1,0 +1,20 @@
+.upcoming-div {
+  flex: 1; 
+  display: flex;
+  flex-direction: column; 
+}
+
+.upcoming-img {
+  padding: 5px; 
+}
+
+
+.d-flexs {
+  justify-content: center; 
+  flex-wrap: wrap; 
+}
+
+.imges-event {
+  max-width: 161px; 
+  height: 201px; 
+}

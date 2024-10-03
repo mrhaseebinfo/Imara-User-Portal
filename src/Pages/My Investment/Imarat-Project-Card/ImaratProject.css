@@ -1,0 +1,70 @@
+.project-container {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto; 
+  scroll-behavior: smooth; 
+  padding: 10px; 
+  width: 84.6rem;
+
+}
+
+
+.project-container::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for other browsers (Firefox, Edge, etc.) */
+.project-container {
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+
+.project-card {
+  flex: 0 0 auto; 
+  width: 360px; 
+  height: 200px; 
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.93%, rgba(0, 0, 0, 0.8) 82.46%);
+  z-index: 1;
+}
+
+.project-info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  z-index: 2;
+}
+
+.project-info h6 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.project-info p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+
+
+

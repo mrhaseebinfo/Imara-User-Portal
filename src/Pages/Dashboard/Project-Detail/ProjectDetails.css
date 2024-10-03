@@ -1,0 +1,21 @@
+
+.table-responsive{
+  height: 27rem;
+}
+
+.projectsdetail-div {
+  max-width: 100%;
+}
+
+
+.arrow-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.project-image {
+  border-radius: 50%; /* Optional: round images */
+}
+

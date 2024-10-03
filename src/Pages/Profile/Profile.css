@@ -1,0 +1,65 @@
+
+.profile-div {
+  padding: 20px;
+  border-radius: 10px;
+  height: auto;
+  margin-bottom: 5rem;
+}
+
+.border-profile{
+  border: 4px solid rgb(255, 255, 255,0.4);
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.nav-b {
+  border-bottom: 5px solid #d5d7d8; 
+  padding-bottom: 8px; 
+  margin-bottom: 0; 
+}
+
+.nav-linkP {
+  text-decoration: none;
+  color: #fff; 
+  padding-bottom: 10px; 
+  margin-bottom: -4px; 
+  border-bottom: 5px solid transparent; 
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-linkP.active {
+  color: #06416C; 
+  border-bottom: 5px solid #06416C; 
+}
+
+.nav-linkP:hover {
+  color: #06416C; 
+  border-bottom: 5px solid #06416C; 
+}
+
+.Edit-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  color: #06416C;
+  background-color: transparent;
+  border: 2px solid #06416C;
+}
+
+
+
+@media (max-width: 576px) {
+  .profile-div img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .Edit-btn {
+    padding: 6px 12px;
+  }
+  .nav-b{
+    border-bottom: none;
+  }
+ 
+}

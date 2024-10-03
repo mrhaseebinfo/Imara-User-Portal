@@ -1,0 +1,13 @@
+.amazon-mall-btn{
+  border: 2px solid #fff;
+  border-radius: 20px;
+  background: none;
+}
+.amazon-mall-btn:hover{
+  background: none;
+  border: 2px solid #06416c;
+}
+.Cust-offer{
+  height: 34rem;
+}
+

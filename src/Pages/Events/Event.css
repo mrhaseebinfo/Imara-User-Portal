@@ -1,0 +1,23 @@
+.event-div{
+  max-width:53rem;
+  height: 65vh;
+  overflow: hidden; 
+  display: flex;
+  flex-direction: column; 
+  border-radius: 8px; 
+}
+.calendar{
+  margin-left: -1rem !important;
+  margin-right: 2rem;
+}
+
+.child-bg-sm-calander {
+  background-color: #f8f9fa; 
+  padding: 10px; 
+}
+
+.calendar-child {
+  width: 100%; 
+  height: auto; 
+}
+
